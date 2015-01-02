@@ -1,0 +1,325 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body{margin-top:50px; font-family:"Open Sans", Arial, Helvetica, Sans-serif; color: #333;}
+
+.navbar-default{
+	background: #e32319;
+	padding:3px 0 0 15px;	
+}
+
+.container-fluid{
+	padding:0;	
+}
+
+.jumbotron{
+	padding:60px 0;	
+}
+.jumbotron h1{
+	font-size:48px;
+	color:#333;
+	font-family:"Oswald", sans-serif;
+}
+h2{
+	font-size:18px;
+	font-weight:bold;
+	font-family:"Oswald", sans-serif;
+}
+
+.col-md-4{
+	margin-bottom:40px;	
+}
+
+.items{
+	margin-bottom:0;	
+}
+
+
+.cont-social{
+	margin-top:40px;	
+}
+
+
+.box-social{
+	background:#262425;
+	margin:0;
+	padding:20px 0 40px 0;
+	color:#FFF;
+}
+	.box-social h2{
+		margin-bottom:20px;	
+	}
+	
+	.box-social a{
+		color:#FFF;
+		margin:0 5px;
+		
+		/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+	}
+	
+	.box-social a:hover{
+		color:#7f8c8d;	
+	}
+
+
+
+.btn-success{
+	background:#2ecc71;
+	text-transform:uppercase;
+	border:none;
+	
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+
+.btn-success:hover{
+	background:#27ae60;
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+
+.btn-suscriptores{
+	background:#e74c3c;
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+	a.btn-suscriptores:hover{
+		background:#c0392b;	
+	}
+
+.btn-comercial{
+	background:#2ecc71;
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+	a.btn-comercial:hover{
+		background:#27ae60;	
+	}
+
+.btn-tecnico{
+	background:#d35400;
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;	
+}
+	a.btn-tecnico:hover{
+		background:#ba4c03;	
+	}
+
+.btn-editorial{
+	background:#2980b9;
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+	a.btn-editorial:hover{
+		background:#1e6797;	
+	}
+
+.btn-otras{
+	background:#8e44ad;
+	/* Firefox */
+    -moz-transition-property: all;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease;
+    -moz-transition-delay: 0.2s;
+ 
+ 
+    /* Chrome / Safari */
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease;
+    -webkit-transition-delay: 0.2s;
+ 
+ 
+    /* Opera */
+    -o-transition-property: all;
+    -o-transition-duration: 0.5s;
+    -o-transition-timing-function: ease;
+    -o-transition-delay: 0.2s;
+ 
+ 
+    /* Default */
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.2s;
+}
+	a.btn-otras:hover{
+		background:#7b3997;	
+	}
+
+
+footer{
+	padding:15px 0;
+	background:#ededed;
+}
